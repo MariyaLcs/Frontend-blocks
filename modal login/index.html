@@ -8,6 +8,7 @@
     <title>Login Form</title>
   </head>
   <body>
+    <button class="login-link">PRESS for Login</button>
     <section class="modal modal-login">
       <h2>Personal account</h2>
       <p class="modal-description">Enter your login and password</p>
@@ -20,6 +21,7 @@
             type="text"
             name="login"
             placeholder="email@example.com"
+            required
           />
         </p>
         <p>
@@ -30,6 +32,7 @@
             type="password"
             name="password"
             placeholder="********"
+            required
           />
         </p>
         <p class="login-help">
@@ -45,5 +48,6 @@
         <span class="visually-hidden">Close</span>
       </button>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
