@@ -38,3 +38,12 @@ form.addEventListener("submit", function (e) {
     }
   }
 });
+//Close with ESC
+window.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") {
+    if (popup.classList.contains("modal-show")) {
+      e.preventDefault();
+      popup.classList.remove("modal-show");
+    }
+  }
+});
